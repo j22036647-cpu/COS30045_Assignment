@@ -1,0 +1,89 @@
+"JURISDICTION","LOCATION","METRIC","Sum(FINES)","Sum(ARRESTS)","Sum(CHARGES)"
+"ACT","Major Cities of Australia","mobile phone use",27413,2,13
+"ACT","Major Cities of Australia","non wearing seatbelts",134,1,7
+"ACT","Major Cities of Australia","speed fines",140807,10,84
+"ACT","Major Cities of Australia","unlicensed driving",559,434,1428
+"NSW","Inner Regional Australia","mobile phone use",3588,0,43
+"NSW","Inner Regional Australia","non wearing seatbelts",6062,0,141
+"NSW","Inner Regional Australia","speed fines",158615,0,740
+"NSW","Inner Regional Australia","unlicensed driving",4512,0,15036
+"NSW","Major Cities of Australia","mobile phone use",23337,0,329
+"NSW","Major Cities of Australia","non wearing seatbelts",10122,0,291
+"NSW","Major Cities of Australia","speed fines",148219,0,1942
+"NSW","Major Cities of Australia","unlicensed driving",10922,0,39963
+"NSW","Outer Regional Australia","mobile phone use",598,0,11
+"NSW","Outer Regional Australia","non wearing seatbelts",2137,0,46
+"NSW","Outer Regional Australia","speed fines",46280,0,164
+"NSW","Outer Regional Australia","unlicensed driving",1290,0,3971
+"NSW","Remote Australia","mobile phone use",34,0,4
+"NSW","Remote Australia","non wearing seatbelts",235,0,12
+"NSW","Remote Australia","speed fines",3713,0,18
+"NSW","Remote Australia","unlicensed driving",115,0,592
+"NSW","Unknown","mobile phone use",350474,0,7
+"NSW","Unknown","non wearing seatbelts",72596,0,7
+"NSW","Unknown","speed fines",1429895,0,66
+"NSW","Unknown","unlicensed driving",348,0,1440
+"NSW","Very Remote Australia","mobile phone use",8,0,1
+"NSW","Very Remote Australia","non wearing seatbelts",64,0,6
+"NSW","Very Remote Australia","speed fines",433,0,2
+"NSW","Very Remote Australia","unlicensed driving",27,0,199
+"NT","Unknown","mobile phone use",449,6,25
+"NT","Unknown","non wearing seatbelts",1773,107,1213
+"NT","Unknown","speed fines",91361,85,507
+"NT","Unknown","unlicensed driving",797,1181,4249
+"QLD","Unknown","mobile phone use",155626,0,0
+"QLD","Unknown","non wearing seatbelts",77060,0,0
+"QLD","Unknown","speed fines",1655509,0,0
+"QLD","Unknown","unlicensed driving",52836,0,0
+"SA","Inner Regional Australia","mobile phone use",188,0,0
+"SA","Inner Regional Australia","non wearing seatbelts",344,0,0
+"SA","Inner Regional Australia","speed fines",35588,14,77
+"SA","Inner Regional Australia","unlicensed driving",640,0,0
+"SA","Major Cities of Australia","mobile phone use",4055,0,0
+"SA","Major Cities of Australia","non wearing seatbelts",1341,0,0
+"SA","Major Cities of Australia","speed fines",120070,64,184
+"SA","Major Cities of Australia","unlicensed driving",4631,0,0
+"SA","Outer Regional Australia","mobile phone use",222,0,0
+"SA","Outer Regional Australia","non wearing seatbelts",519,0,0
+"SA","Outer Regional Australia","speed fines",21969,10,64
+"SA","Outer Regional Australia","unlicensed driving",884,0,0
+"SA","Remote Australia","mobile phone use",42,0,0
+"SA","Remote Australia","non wearing seatbelts",102,0,0
+"SA","Remote Australia","speed fines",3505,2,11
+"SA","Remote Australia","unlicensed driving",180,0,0
+"SA","Unknown","mobile phone use",5842,0,0
+"SA","Unknown","non wearing seatbelts",2928,0,0
+"SA","Unknown","speed fines",205184,103,284
+"SA","Unknown","unlicensed driving",7221,2852,8894
+"SA","Very Remote Australia","mobile phone use",25,0,0
+"SA","Very Remote Australia","non wearing seatbelts",172,0,0
+"SA","Very Remote Australia","speed fines",1867,2,8
+"SA","Very Remote Australia","unlicensed driving",121,0,0
+"TAS","Unknown","mobile phone use",5243,0,69
+"TAS","Unknown","non wearing seatbelts",6175,2,129
+"TAS","Unknown","speed fines",140033,0,759
+"TAS","Unknown","unlicensed driving",487,17,3259
+"VIC","Inner Regional Australia","mobile phone use",10749,0,0
+"VIC","Inner Regional Australia","non wearing seatbelts",14457,0,0
+"VIC","Inner Regional Australia","speed fines",294345,0,0
+"VIC","Inner Regional Australia","unlicensed driving",2319,0,0
+"VIC","Major Cities of Australia","mobile phone use",79020,0,0
+"VIC","Major Cities of Australia","non wearing seatbelts",62832,0,0
+"VIC","Major Cities of Australia","speed fines",1579215,0,0
+"VIC","Major Cities of Australia","unlicensed driving",6210,0,0
+"VIC","Outer Regional Australia","mobile phone use",792,0,0
+"VIC","Outer Regional Australia","non wearing seatbelts",1317,0,0
+"VIC","Outer Regional Australia","speed fines",41536,0,0
+"VIC","Outer Regional Australia","unlicensed driving",664,0,0
+"VIC","Remote Australia","mobile phone use",0,0,0
+"VIC","Remote Australia","non wearing seatbelts",10,0,0
+"VIC","Remote Australia","speed fines",377,0,0
+"VIC","Remote Australia","unlicensed driving",6,0,0
+"VIC","Unknown","mobile phone use",14060,0,0
+"VIC","Unknown","non wearing seatbelts",4988,0,0
+"VIC","Unknown","speed fines",160625,0,0
+"VIC","Unknown","unlicensed driving",7176,0,0
+"WA","Unknown","mobile phone use",7323,11,360
+"WA","Unknown","non wearing seatbelts",3715,42,730
+"WA","Unknown","speed fines",1280320,36,3242
+"WA","Unknown","unlicensed driving",4029,4203,32105
