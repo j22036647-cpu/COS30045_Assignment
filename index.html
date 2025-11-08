@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Australian Road Safety Enforcement Dashboard</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+
+  <header>
+    <h1>Australian Road Safety Enforcement Dashboard (2008–2024)</h1>
+    <p>Visualizing fines, trends, and drug test statistics across jurisdictions.</p>
+  </header>
+
+  <section id="fines-chart">
+  <h2>Total Fines by Offence Type (2008–2024)</h2>
+  <p class="chart-desc">
+    This chart displays total fines by offence category (speeding, mobile phone, seatbelt)
+    for a selected year.
+  </p>
+
+  <div class="filter-group">
+    <label for="year-select-fines">Select Year:</label>
+    <select id="year-select-fines"></select>
+  </div>
+
+  <div id="bar-chart" class="chart-container"></div>
+</section>
+
+<section id="trend-chart">
+  <h2>Fines Trend Over Time</h2>
+  <p class="chart-desc">Click a button to switch between offences.</p>
+
+  <!-- 🔹 按钮区 -->
+  <div id="trend-buttons" class="button-group"></div>
+
+  <!-- 🔹 折线图容器 -->
+  <div id="line-chart" class="chart-container"></div>
+</section>
+
+
+
+ <!-- MAP SECTION -->
+<section id="map-section">
+  <h2>Geographic Distribution of Road Safety Data</h2>
+
+  <div class="filter-group">
+    <label for="map-year-select">Select Year:</label>
+    <select id="map-year-select"></select>
+
+    <label for="map-metric-select" style="margin-left: 10px;">Select Metric:</label>
+    <select id="map-metric-select">
+      <option value="Sum(FINES)">Fines</option>
+      <option value="Sum(ARRESTS)">Arrests</option>
+      <option value="Sum(CHARGES)">Charges</option>
+    </select>
+  </div>
+
+  <p class="chart-desc">
+    This map visualizes the selected road safety metric across Australian states.
+    Darker shades indicate higher totals.
+  </p>
+
+  <div id="map-chart"></div>
+  <div id="map-tooltip" class="tooltip"></div>
+</section>
+
+
+ <!-- DRUG TEST CHART -->
+<section id="drug-section">
+  <h2>Positive Drug Tests by State and Substance</h2>
+  <div class="filter-group">
+    <label for="drug-year-select">Select Year:</label>
+    <select id="drug-year-select"></select>
+  </div>
+  <p class="chart-desc">
+    This grouped bar chart visualizes the number of positive drug test detections
+    by substance and jurisdiction (log scale applied).
+  </p>
+  <div id="drug-chart-container" class="chart-container"></div>
+  <div id="drug-tooltip" class="tooltip"></div>
+</section>
+
+  <footer>
+    <p>© 2025 Australian Road Safety Visualisation Project</p>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="js/fines_chart.js"></script>
+  <script src="js/trend_chart.js"></script>
+  <script src="js/map_chart.js"></script>
+  <script src="js/drug_chart.js"></script>
+  <script src="js/filters.js"></script>
+</body>
+</html>
